@@ -1,0 +1,448 @@
+.hero-imagen {
+  background-color: #c76440;
+  padding: 80px 20px;   /* espacio arriba y abajo */
+  text-align: center;
+  color: white;
+}
+.hero-texto h1 {
+  font-family:'Poppins', sans-serif;
+  font-size: 4.5rem;
+  margin: 0;
+}
+.hero-texto h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background:#ef6a22 ;       
+  color: white;          
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+.reco{
+  display: grid;
+  font-family: 'Poppins', sans-serif;
+  grid-template-columns: 1.1fr 1fr;   
+  gap: 32px;
+  align-items: center;
+  max-width: 1000px;
+  margin: 32px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+}
+
+.reco__text h2{
+  margin: 0 0 10px;
+  color: var(--text);
+  font-size: 2.2rem;
+}
+
+.reco__list{
+  font-size: 1.5rem;
+  margin: 0 0 14px;
+  padding-left: 20px;
+  color: black;      
+  line-height: 1.3;
+}
+
+.reco__media{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.reco__media img{
+  width: 100%;
+  max-width: 440px;           
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.btn{ 
+  font-weight: 600;
+  border-radius: 5px;
+}
+.btn--sm{
+  display: inline-block;
+  padding: 12px 16px;
+  background: #111;          
+  color: #fff;
+  width: auto !important;    
+  max-width: none !important;
+}
+/*-----------------------------------------------------------------------------------------*/
+.container h2 {
+  text-align: left;        
+  font-size: 2.2rem;         
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 700;        
+  color:black;          
+  margin-bottom: 20px;     
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  align-items: start;            
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  padding: 12px 8px;
+  height: 100%;
+}
+.card img{
+  width: 100%;
+  height: 220px;                
+  object-fit: contain;         
+  display: block;
+  border-radius: 8px;
+  background: #fff;              
+}
+
+
+.card h3{
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 0 6px;
+  font-size: 1.5rem;
+  font-weight: 0;
+  min-height: 2.6em;             
+}
+
+.card p{
+  margin: 0 0 1px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #d2420d;
+}
+
+
+.card .btn{
+  display: inline-block;
+  width: auto;
+  align-self: flex-start;        
+  margin-top: auto;              
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+.container h2 {
+  font-size: 2.2rem;   
+  font-weight: 700;    
+  margin-bottom: 12px;
+}
+
+.container p {
+  font-size: 1.4rem;  
+  margin-bottom: 20px;
+}
+
+.video iframe {
+  width: 100%;
+  max-width: 800px; 
+  height: 450px;     
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto;    
+}
+/*-----------------------------------------------------------------------------------------*/
+
+
+header {
+  background-color: #d2420d; 
+  font-family: 'Poppins', sans-serif;
+  padding: 12px 0;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;    
+  gap: 28px;                 
+}
+
+
+nav a {
+  color: #fff;                  
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+
+}
+
+nav a:hover {
+  background: #fff;
+  color: #d2420d;
+}
+
+nav a.active {
+  background: #fff;
+  color: #d2420d;
+  font-weight: 700;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+
+section.Productos {
+  padding: 24px 16px;
+  font-family: 'Poppins', sans-serif;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+section.Productos :is(.grid1,.grid2,.grid3,.grid4) {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px;
+  align-items: start;
+}
+
+
+section.Productos :is(.card1,.card2,.card3,.card4) {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 14px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,.04);
+}
+
+
+section.Productos :is(.card1,.card2,.card3,.card4) img {
+  width: 100%;
+  max-width: 220px;
+  height: 140px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+
+section.Productos :is(.card1,.card2,.card3,.card4) h3 {
+  margin: 8px 0 6px;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+}
+section.Productos :is(.card1,.card2,.card3,.card4) p {
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+section.Productos :is(.card1,.card2,.card3,.card4) .btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Historia {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif; 
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.Historia h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.Historia p {
+  font-size: 1.2rem;
+  color:black;
+  margin-bottom: 1.5rem;
+}
+
+.Historia img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.Ubi {
+  display: flex;         
+  justify-content: space-between;
+  align-items: center;      
+  gap: 20px;                
+  padding: 40px;
+}
+
+.textoubi {
+  flex: 1;                  
+  font-size: 1.2rem;
+  font-family:'Poppins', sans-serif; ;
+}
+
+.mapa {
+  flex: 1.5;                
+}
+
+.mapa iframe {
+  width: 100%;              
+  height: 400px;
+  border-radius: 10px;      
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* =======================
+   SECCIÓN REVIEWS
+======================= */
+.reviews {
+  font-family: 'Poppins', sans-serif;
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.reviews h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  color: #111;
+}
+
+/* Grid principal: 2 columnas en desktop */
+.grid-reviews {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 28px;
+}
+
+/* Tarjeta de cada review */
+.review-card {
+  display: grid;
+  grid-template-columns: 90px 1fr;  /* foto + texto */
+  gap: 18px;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+/* Imagen circular */
+.review-img img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ef6a22; /* un toque con tu color naranja */
+}
+
+/* Texto */
+.review-text p {
+  margin: 4px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.review-text p strong {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 6px;
+  display: block;
+}
+ /*------------------------------------------------------------------------------------------*/
+
+.contacto {
+  font-family: 'Poppins', sans-serif;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.contacto h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contacto .intro {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.form-contacto label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+}
+
+.form-contacto input:focus,
+.form-contacto textarea:focus {
+  outline: none;
+  border-color: #ef6a22; /* tu naranja */
+  box-shadow: 0 0 4px rgba(239,106,34,0.4);
+}
+
+.form-contacto .btn {
+  align-self: flex-start;
+  padding: 10px 20px;
+}
+
